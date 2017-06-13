@@ -1,0 +1,242 @@
+/*Custom CSS*/
+
+/*GENERAL==================*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.container {
+    overflow: auto;
+}
+
+.col-one {
+    padding-right: 0px;
+}
+
+.col-two {
+    padding-left: 0px;
+}
+
+/*HERO IMAGE SECTION========================*/
+
+.hero-img {
+    background: url('imgs/cubesbackground.jpg');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 37.6%;
+    color: white;
+}
+
+.hero-img .text-wrapper {
+    padding: 25px 25px 5px 25px;
+}
+
+.hero-img h2 {
+    padding-bottom: 15px;
+}
+
+.hero-img p.lead {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d38801;
+}
+
+.text-wrapper h2 span {
+    color: #d38801;
+}
+
+/*SIDEBAR NAV=================================*/
+
+.nav-wrapper {
+    background: rgb(211, 136, 1);
+    max-height: inherit;
+    width: 100%;
+    height: 588px;
+}
+
+.nav-item {
+    height: 60px;
+    background: rgb(223, 176, 76);
+    border-bottom: 1px solid white;
+    padding-left: 55px;
+    padding-top: 9px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+li.active {
+    background-color: rgb(211, 136, 1); 
+}
+
+.nav-item:hover {
+    background-color: rgba(171, 120, 11, 0.96);
+}
+
+/*QUESTIONAIRRE SECTION-==============================*/
+
+.questionairre {
+    background-color: rgb(247, 248, 248);
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+.questionairre p.lead strong {
+    font-size: 1.1em;
+}
+
+.questionairre p.lead {
+    border-bottom: 1.5px solid black;
+    padding-bottom: 30px;
+
+}
+
+.questionairre td {
+    border: 0px;
+}
+
+td[colspan]{
+    padding: 12px 0px 12px 30px;
+    width: 25px;
+}
+
+.icon {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+}
+
+td i.fa {
+    font-size: 2em;
+    font-weight: lighter;
+    color: rgb(182, 227, 253);
+}
+
+/*PROGRESS BAR SECTION=============================*/
+
+.progress-wrapper {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(11, 67, 143);
+    padding: 30px;
+    
+}
+
+.progress-wrapper .progress {
+    height: 16px;
+    padding-left: 0px;
+    width: 500px;
+    text-align: right;
+}
+
+.progress-wrapper .progress-bar {
+    margin-right: 417px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.progress-wrapper button {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 8px;
+    right: 10px;
+    border-radius: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/*MEDIA QUERIES====================*/
+
+/*CELL PHONES*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .col-one {
+        padding-left: 0px;
+    }
+
+    .col-two {
+        padding-right: 0px;
+    }
+
+    .nav-wrapper {
+        height: auto;
+    }
+
+    .progress-wrapper .progress {
+        width: 100%;
+    }
+
+    .progress .progress-bar {
+       margin-right: 200px;
+    }
+
+    .progress-wrapper button {
+        width: 100%;
+        height: 30px;
+        display: block;
+        border-radius: 0px;
+        text-align: center;
+        padding-top: 5px;
+        color: black;
+        border: none;
+        background: white;
+        padding-right: 0px;
+    }
+
+    .btn-media {
+        padding-top: 32px;
+        height: 0px;
+    }
+}
+
+/*TABLETS*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .col-one {
+        padding-left: 0px;
+    }
+
+    .col-two {
+        padding-right: 0px;
+    }
+
+    .nav-wrapper {
+        height: auto;
+    }
+
+    .progress-wrapper .progress {
+        width: 100%;
+    }
+
+    .progress .progress-bar {
+       margin-right: 200px;
+    }
+
+    .progress-wrapper button {
+        width: 100%;
+        height: 30px;
+        display: block;
+        border-radius: 0px;
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
